@@ -39,13 +39,15 @@ body {
     height: 100%;
     object-fit: cover;
     position: absolute;
-    top: 0;
-    left: 0;
+    display: none;
+
 }
 
 .carousel-image.active {
     display: block;
+
 }
+
 
 .arrow {
     position: absolute;
